@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    background-image: url(picture/pic4.webp);
+    background-size: cover;
+}
+
+.pass-box {
+    height: 400px;
+    width: 300px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #00000063;
+    border: 2px solid rgba(255, 255, 255, 0.248);
+    border-radius: 8px;
+    backdrop-filter: blur(40px);
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+.genaretor-box {
+    height: auto;
+    margin-top: 1rem;
+}
+
+.genaret {
+    margin-top: 0.5rem;
+}
+
+.genaretor-box input {
+    height: 1.5rem;
+    width: 10rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.genaret::placeholder {
+    color: red;
+    font-weight: 700;
+}
+
+.user-box {
+    height: auto;
+    margin-top: 0.5rem;
+
+}
+
+.user {
+    margin-top: 1rem;
+    margin-left: 5%;
+}
+
+.user-box input {
+    height: 1.5rem;
+    width: 10rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.user-box p {
+    font-size: smaller;
+    margin-top: 0.8rem;
+}
+
+.genaretor-box p {
+    font-size: smaller;
+    margin-top: 0.8rem;
+}
+
+#button2 {
+    height: 30px;
+    width: 80px;
+    margin-top: 3rem;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, red, yellow);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#button2:active {
+    height: 25px;
+    width: 75px;
+}
+
+/* screen */
+
+.hack-screen {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen-box {
+    height: 610px;
+    width: 800px;
+}
+
+#screen {
+    height: 600px;
+    width: 800px;
+    background-color: black;
+    border-radius: 5px;
+    color: green;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 20px;
+}
+
+
+.hack-screen button {
+    height: 2rem;
+    width: 4rem;
+
+}
+
+.user-box::placeholder {
+    color: transparent;
+}
+
+#button1 {
+    height: 30px;
+    width: 80px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, red, yellow);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#button1:active {
+    height: 25px;
+    width: 75px;
+}
+
+.hack-screen button{
+    height: 50px;
+    width: 50px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(45deg, red, yellow);
+    font-weight: 700;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 1100px;
+}
+
+.user::placeholder {
+    color: green;
+    font-weight: 700;
+}
